@@ -1,0 +1,202 @@
+{
+	"info": {
+		"_postman_id": "92eea38e-8765-4e81-8ce5-558879d37f11",
+		"name": "Restaurante",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4320325"
+	},
+	"item": [
+		{
+			"name": "RegistrarRestaurante",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"restaurante\",\r\n    \"direccion\": \"calle 2 #4-98\",\r\n    \"ciudad\": \"bogota\",\r\n    \"estado\": \"activo\",\r\n    \"valor\": 100.0,\r\n    \"owners\": [\r\n        {\r\n            \"idDueno\": 1,\r\n            \"comision\": 0.10\r\n        },\r\n        {\r\n            \"idDueno\": 2,\r\n            \"comision\": 0.15\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/restaurante/registrar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"restaurante",
+						"registrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RegistrarDueño",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"documento\": \"34234234\",\r\n  \"nombre\": \"ivan\",\r\n  \"estado\": \"Activo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/owner/registrar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"owner",
+						"registrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RegistrarVenta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"idRestaurante\": 1,\r\n  \"valor\": 20000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/venta/registrar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"venta",
+						"registrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Restaurantes por dueño",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/restaurante/restaurantes-owner?idOwner=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"restaurante",
+						"restaurantes-owner"
+					],
+					"query": [
+						{
+							"key": "idOwner",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ventas por restaurante",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/venta/ventas-restaurante?idRestaurante=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"venta",
+						"ventas-restaurante"
+					],
+					"query": [
+						{
+							"key": "idRestaurante",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reporte Venta",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/venta/reporte",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"venta",
+						"reporte"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Empleados por restaurante",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/empleado/empleados-restaurante?idRestaurante=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"empleado",
+						"empleados-restaurante"
+					],
+					"query": [
+						{
+							"key": "idRestaurante",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
