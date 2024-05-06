@@ -12,7 +12,7 @@ import com.restaurante.infrastructure.adapters.in.rest.api.RestauraneApi;
 import com.restaurante.infrastructure.adapters.in.rest.controller.mappers.RestauranteMapperApi;
 import com.restaurante.infrastructure.adapters.in.rest.controller.request.RestauranteRequest;
 import com.restaurante.infrastructure.adapters.in.rest.controller.response.RestauranteResponse;
-import com.restaurante.ports.in.RestauranteUseCase;
+import com.restaurante.infrastructure.ports.in.RestauranteUseCase;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

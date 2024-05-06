@@ -16,7 +16,7 @@ import com.restaurante.infrastructure.adapters.in.rest.controller.mappers.VentaM
 import com.restaurante.infrastructure.adapters.in.rest.controller.request.VentaRequest;
 import com.restaurante.infrastructure.adapters.in.rest.controller.response.ReporteVentasResponse;
 import com.restaurante.infrastructure.adapters.in.rest.controller.response.VentaResponse;
-import com.restaurante.ports.in.VentaUseCase;
+import com.restaurante.infrastructure.ports.in.VentaUseCase;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

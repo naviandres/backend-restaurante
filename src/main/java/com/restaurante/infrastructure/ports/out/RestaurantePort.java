@@ -1,4 +1,4 @@
-package com.restaurante.ports.out;
+package com.restaurante.infrastructure.ports.out;
 
 
 import com.restaurante.domain.models.Restaurante;

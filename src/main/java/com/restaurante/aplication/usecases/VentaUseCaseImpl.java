@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import com.restaurante.domain.models.Venta;
 import com.restaurante.infrastructure.adapters.out.database.VentaAdapter;
-import com.restaurante.ports.in.VentaUseCase;
+import com.restaurante.infrastructure.ports.in.VentaUseCase;
 
 import lombok.RequiredArgsConstructor;
 

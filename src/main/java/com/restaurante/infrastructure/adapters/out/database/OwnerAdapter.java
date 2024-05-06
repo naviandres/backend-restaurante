@@ -6,7 +6,7 @@ import com.restaurante.aplication.exceptions.RestauranteException;
 import com.restaurante.domain.models.Owner;
 import com.restaurante.infrastructure.adapters.out.database.mappers.OwnerMapper;
 import com.restaurante.infrastructure.adapters.out.database.repository.OwnerRepository;
-import com.restaurante.ports.out.OwnerPort;
+import com.restaurante.infrastructure.ports.out.OwnerPort;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

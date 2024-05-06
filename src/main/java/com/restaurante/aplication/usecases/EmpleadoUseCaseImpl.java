@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import com.restaurante.domain.models.Empleado;
 import com.restaurante.infrastructure.adapters.out.database.EmpleadoAdapter;
-import com.restaurante.ports.in.EmpleadoUseCase;
+import com.restaurante.infrastructure.ports.in.EmpleadoUseCase;
 
 import lombok.RequiredArgsConstructor;
 

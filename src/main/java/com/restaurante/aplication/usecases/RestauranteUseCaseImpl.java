@@ -7,9 +7,9 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.restaurante.domain.models.Restaurante;
 import com.restaurante.domain.models.RestauranteOwner;
-import com.restaurante.ports.in.RestauranteUseCase;
-import com.restaurante.ports.out.RestauranteOwnerPort;
-import com.restaurante.ports.out.RestaurantePort;
+import com.restaurante.infrastructure.ports.in.RestauranteUseCase;
+import com.restaurante.infrastructure.ports.out.RestauranteOwnerPort;
+import com.restaurante.infrastructure.ports.out.RestaurantePort;
 
 import lombok.RequiredArgsConstructor;
 

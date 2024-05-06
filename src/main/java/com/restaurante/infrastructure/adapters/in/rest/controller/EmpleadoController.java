@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.restaurante.infrastructure.adapters.in.rest.api.EmpleadoApi;
 import com.restaurante.infrastructure.adapters.in.rest.controller.mappers.EmpleadoMapperApi;
 import com.restaurante.infrastructure.adapters.in.rest.controller.response.EmpleadoResponse;
-import com.restaurante.ports.in.EmpleadoUseCase;
+import com.restaurante.infrastructure.ports.in.EmpleadoUseCase;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

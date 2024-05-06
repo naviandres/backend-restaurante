@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service;
 
 import com.restaurante.domain.models.Owner;
 import com.restaurante.infrastructure.adapters.out.database.OwnerAdapter;
-import com.restaurante.ports.in.OwnerUseCase;
+import com.restaurante.infrastructure.ports.in.OwnerUseCase;
 
 import lombok.RequiredArgsConstructor;
 

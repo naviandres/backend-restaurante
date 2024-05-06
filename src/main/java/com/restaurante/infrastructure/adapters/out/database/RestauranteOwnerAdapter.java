@@ -10,7 +10,7 @@ import com.restaurante.domain.models.RestauranteOwner;
 import com.restaurante.infrastructure.adapters.out.database.mappers.RestauranteMapper;
 import com.restaurante.infrastructure.adapters.out.database.mappers.RestauranteOwnerMapper;
 import com.restaurante.infrastructure.adapters.out.database.repository.RestauranteOwnerRepository;
-import com.restaurante.ports.out.RestauranteOwnerPort;
+import com.restaurante.infrastructure.ports.out.RestauranteOwnerPort;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

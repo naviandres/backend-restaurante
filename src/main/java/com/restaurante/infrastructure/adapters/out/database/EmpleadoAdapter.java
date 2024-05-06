@@ -8,7 +8,7 @@ import com.restaurante.aplication.exceptions.RestauranteException;
 import com.restaurante.domain.models.Empleado;
 import com.restaurante.infrastructure.adapters.out.database.mappers.EmpleadoMapper;
 import com.restaurante.infrastructure.adapters.out.database.repository.EmpleadoRepository;
-import com.restaurante.ports.out.EmpleadoPort;
+import com.restaurante.infrastructure.ports.out.EmpleadoPort;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

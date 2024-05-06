@@ -9,7 +9,7 @@ import com.restaurante.infrastructure.adapters.in.rest.api.OwnerApi;
 import com.restaurante.infrastructure.adapters.in.rest.controller.mappers.OwnerMapperApi;
 import com.restaurante.infrastructure.adapters.in.rest.controller.request.OwnerRequest;
 import com.restaurante.infrastructure.adapters.in.rest.controller.response.OwnerResponse;
-import com.restaurante.ports.in.OwnerUseCase;
+import com.restaurante.infrastructure.ports.in.OwnerUseCase;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

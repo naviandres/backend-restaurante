@@ -1,4 +1,4 @@
-package com.restaurante.ports.in;
+package com.restaurante.infrastructure.ports.in;
 
 import java.util.List;
 

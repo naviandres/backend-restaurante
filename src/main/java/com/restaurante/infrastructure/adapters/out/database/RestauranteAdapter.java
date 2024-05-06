@@ -6,7 +6,7 @@ import com.restaurante.aplication.exceptions.RestauranteException;
 import com.restaurante.domain.models.Restaurante;
 import com.restaurante.infrastructure.adapters.out.database.mappers.RestauranteMapper;
 import com.restaurante.infrastructure.adapters.out.database.repository.RestauranteRepository;
-import com.restaurante.ports.out.RestaurantePort;
+import com.restaurante.infrastructure.ports.out.RestaurantePort;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
